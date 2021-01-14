@@ -1,12 +1,45 @@
-## Completed Coding Challenge for Substantial, accompanying Robert Kim's Application to Wilson Sonsini.
+## Code Sample accompanying Robert Kim's Application to ToMarket
 
-This submission contains my solution to Substantial's coding challenge for the Lecroix flavor ranking survey.
+Here is my solution to a coding challenge requiring proper scoring of a drink flavor ranking survey.
 
 ### Language
 
 My language of choice was Ruby (ruby 2.7.2p137)
 
-### Instructions
+## The Problem
+
+A special event to taste and rate new soda flavors, asked attendees
+have been asked to rank the new flavors from most to least favorite.
+
+### Input/Output
+
+The input is plain text. My solution should fetch and parse the data
+from `sample-input.txt`.
+
+The input contains results from three attendees. Each line has the flavor and
+the rank from 1 to 5. See `sample-input.txt` for details. The output was designed to be
+ordered from most to least preferred, _exactly matching_ the contents of `expected-output.txt`.
+
+The input will always be well-formed, and thus no need to add
+special handling for malformed input files.
+
+### The Rules
+
+5 points should be given to an attendee's favorite flavor, 3 points to their
+second favorite, 2 points to their third favorite, 1 point to their
+fourth favorite and 0 points to their fifth favorite.
+
+If two flavors are ranked equally then they are assigned the same rank, having the drink with the shorter name listed first.
+
+### Guidelines
+
+This should be implemented in Kotlin (preferred) or Java.
+
+Your solution should be able to be built and run in the latest Release (non-Preview,
+Alpha or Beta) version of Android Studio. Please include appropriate scripts and
+instructions for running your application and your tests.
+
+### Solution Instructions
 
 To run the application from the command line, use the `ruby` command along with the name of the file containing the code and script, followed by an argument of the name for the provided sample data:
 
