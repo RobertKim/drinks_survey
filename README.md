@@ -1,4 +1,4 @@
-## Code Sample accompanying Robert Kim's Application to ToMarket
+## Code Sample accompanying Robert Kim's Application.
 
 Here is my solution to a coding challenge requiring proper scoring of a drink flavor ranking survey.
 
